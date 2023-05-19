@@ -26,3 +26,7 @@ spring:
         provider:
           my-provider:
             issuer-uri: http://backend-keycloak-auth:8080/auth/realms/my_realm
+
+logging:
+  level:
+    org.springframework.security: trace
